@@ -1,6 +1,6 @@
 # AV-IDS-Dataset
 
-Dataset e scripts para detecção de intrusão em redes CAN de veículos autônomos, produzido via co-simulação com o CARLA.
+Dataset e scripts para detecção de intrusão em redes CAN de veículos autônomos, produzido via simulação com o CARLA.
 
 ## Estrutura do repositório
 
@@ -32,7 +32,7 @@ Cada cenário resulta em um arquivo no padrão `attacked_<via>_<clima>_<perfil>.
 
 ### 1. Coleta no CARLA
 
-As simulações foram executadas nos mapas Town03 (urbano), Town07 (rural) e Town04 (rodovia) do CARLA 0.9.14. O módulo de co-simulação captura a telemetria do veículo e a serializa no barramento CAN virtual, exportando os logs para `data/raw/`.
+As simulações foram executadas nos mapas Town03 (urbano), Town07 (rural) e Town04 (rodovia) do CARLA 0.9.14. O módulo de simulação captura a telemetria do veículo e a serializa no barramento CAN virtual, exportando os logs para `data/raw/`.
 
 ### 2. Conversão para CAN 2.0B
 
